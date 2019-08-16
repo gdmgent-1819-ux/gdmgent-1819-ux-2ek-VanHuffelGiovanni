@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap');
 
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+--c-pastelgeel:#FEF9C7;
+--c-donkergeel: #fce180;
+--c-lichtblauw: #9fedd7;
+--c-donkerblauw: #016670;
+
+
+  --c-primary: var(--c-pastelgeel);
+  --c-secundary:var(--c-donkergeel);
+  --c-tertiary: var(--c-lichtblauw);
+  --c-quaternary: var(--c-donkerblauw);
+
+
+
 
   /**
    * Layout
@@ -13,14 +27,13 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
 
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
+  
+
+  --t-headline: 'Lato', 'sans-serif';
+  --t-subtitle: 'Lato', 'sans-serif';
+  --t-body: 'Merriweather', 'serif';
+  --t-quote: 'Georgia', 'serif';
 }
 
 
